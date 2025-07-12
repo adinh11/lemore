@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Album khách sạn</title>
+
+  <!-- Fancybox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <link rel="stylesheet" href="anhlemore1.html">
+  <style>
+    .back-button {
+      font-size: 20px;
+      padding: 10px 20px;
+      background: linear-gradient(45deg, #8b0000, #b22222);
+      color: white;
+      text-align: center;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      transition: transform 0.3s, background 0.3s;
+      text-decoration: none;
+    }
+
+    .back-button:hover {
+      background: linear-gradient(45deg, #b22222, #8b0000);
+      transform: scale(1.05);
+    }
+
+    .back-button {
+      font-size: 16px; 
+      padding: 8px 16px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #611b1b; /* đỏ đậm */
+      color: white;
+    }
+
+    h2 {
+      text-align: center;
+      padding: 30px 0 10px;
+      font-size: 32px;
+      text-transform: uppercase;
+    }
+
+    .album {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 25px;
+      padding: 20px 40px;
+    }
+
+    .album a {
+      display: block;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+
+    .album a:hover {
+      transform: scale(1.05);
+    }
+
+    .album img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 24px;
+      }
+
+    .album {
+      padding: 10px;
+      gap: 10px;
+    }
+
+    .album img {
+      height: 150px;
+    }
+     
+  </style>
+</head>
+<body>
+
+ <a href="anhlemore1.html" class="back-button">Back</a>
+
+<div class="album">
+  <!-- Thay đổi đường dẫn ảnh tùy theo ảnh bạn có -->
+  <a data-fancybox="gallery" href="img\1.jpg" data-caption="LEMORE HOTEL">
+  <img src="img\1.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_7C22067.jpg" data-caption="LOBBY">
+  <img src="img\_7C22067.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\z5020243273148_08087069f9c1920cef0c386eb5a46e71.jpg" data-caption="GALA">
+  <img src="img\z5020243273148_08087069f9c1920cef0c386eb5a46e71.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\47153665241_4fe7eb5df5_c.jpg" data-caption="BUFFET">
+  <img src="img\47153665241_4fe7eb5df5_c.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\47153665691_0e1896f90d_c.jpg" data-caption="BUFFET">
+  <img src="img\47153665691_0e1896f90d_c.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\8.jpg" data-caption="BUFFET">
+  <img src="img\8.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\12.jpg" data-caption="BUFFET">
+  <img src="img\12.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\10.jpg" data-caption="Buffet">
+  <img src="img\10.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\z4570515759822_cdd551ad045f084dc0404da439943495 (1).jpg" data-caption="DELUXE CITY DOUBLE">
+  <img src="img\z4570515759822_cdd551ad045f084dc0404da439943495 (1).jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_SKY9946.jpg" data-caption="">
+  <img src="img\_SKY9946.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_SKY9939.jpg" data-caption="DELUXE CITY TWIN">
+  <img src="img\_SKY9939.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_7C20240-HDR-Edit.jpg" data-caption="DELUXE CITY QUAD">
+  <img src="img\_7C20240-HDR-Edit.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_7C20369-Edit-Edit.jpg" data-caption="DELUXE CITY TRIPLE">
+  <img src="img\_7C20369-Edit-Edit.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_7C20407-Edit.jpg" data-caption="">
+  <img src="img\_7C20407-Edit.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_SKY9904.jpg" data-caption="">
+  <img src="img\_SKY9904.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\IMG_2367.jpg" data-caption="SENIOR CITY DOUBLE">
+  <img src="img\IMG_2367.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_GAB4106.jpg" data-caption="SENIOR CITY TWIN">
+  <img src="img\_GAB4106.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_SKY9879.jpg" data-caption="">
+  <img src="img\_SKY9879.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_GAB4146.jpg" data-caption="">
+  <img src="img\_GAB4146.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\z5123123524923_4210a11a29e2d42c30170a2c1db75a5d.jpg" data-caption="SENIOR CITY QUAD">
+  <img src="img\z5123123524923_4210a11a29e2d42c30170a2c1db75a5d.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_7C20337-HDR-Edit.jpg" data-caption="SENIOR CITY TRIPLE">
+  <img src="img\_7C20337-HDR-Edit.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_SKY9912.jpg" data-caption="">
+  <img src="img\_SKY9912.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\69449808_1343560982473648_2827263132848619520_o.jpg" data-caption="PREMIER DELUXE DOUBLE">
+  <img src="img\69449808_1343560982473648_2827263132848619520_o.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\400679226_1367149460857988_8592781519672036846_n.jpg" data-caption="">
+  <img src="img\400679226_1367149460857988_8592781519672036846_n.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\IMG_1976.JPG" data-caption="PREMIER">
+  <img src="img\IMG_1976.JPG" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_SKY0096-HDR-2 (2).jpg" data-caption="PREMIER DELUXE TWIN">
+  <img src="img\_SKY0096-HDR-2 (2).jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\23.jpg" data-caption="LEMORE SUIT">
+  <img src="img\23.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_SKY9373-HDR.jpg" data-caption="LEMORE SUIT">
+  <img src="img\_SKY9373-HDR.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\65182205_1301874336642313_220938447760654336_n.jpg" data-caption="INFINITY POOL">
+  <img src="img\65182205_1301874336642313_220938447760654336_n.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\_7C20618-2.jpg" data-caption="INFINITY POOL">
+  <img src="img\_7C20618-2.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\18.jpg" data-caption="GYM">
+  <img src="img\18.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\17.jpg" data-caption="SPA">
+  <img src="img\17.jpg" width="150" /></a>
+  <a data-fancybox="gallery" href="img\20.jpg" data-caption="SPA">
+  <img src="img\20.jpg" width="150" /></a>
+
+<!-- Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+</body>
+</html>

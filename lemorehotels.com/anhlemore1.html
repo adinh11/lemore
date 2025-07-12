@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        /* Center the button on the main page */
+        body {
+            margin: 0; /* Xóa margin để không có khoảng trống */
+            padding: 0; /* Xóa padding */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Đảm bảo chiều cao tối thiểu bằng màn hình */
+            width: 100vw; /* Chiều rộng bằng toàn bộ viewport */ /* Màu nền gốc */
+            overflow-x: hidden; /* Tránh thanh cuộn ngang */
+        }
+
+        /* Album button styling */
+        .album-button {
+            font-size: 28px;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #8b0000, #b22222);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s, background 0.3s;
+            text-decoration: none;
+        }
+
+        .album-button:hover {
+            background: linear-gradient(45deg, #b22222, #8b0000);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Button linking to gallery page -->
+    <a href="albumlemore.html" class="album-button">Album ảnh </a>
+</body>
+</html>
