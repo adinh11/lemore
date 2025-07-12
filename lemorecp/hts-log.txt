@@ -1,0 +1,21 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 12 Jul 2025 10:48:03 at https://lemorecp.vercel.app/lemorehotels.com/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://lemorecp.vercel.app/lemorehotels.com/index.html -O1 "C:\lemore\lemorecp" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:48:08	Error: 	Exit requested by shell or user
+10:48:08	Warning: 	File not added due to mirror cancel: https://lemorecp.vercel.app/lemorehotels.com/wp-content/themes/letoh/assets/js/active072b.js?ver=6.3.5
+10:48:08	Warning: 	File not added due to mirror cancel: https://lemorecp.vercel.app/lemorehotels.com/wp-content/themes/letoh/assets/js/active072b.js?ver=6.3.5
+10:48:08	Warning: 	File not added due to mirror cancel: https://lemorecp.vercel.app/lemorehotels.com/wp-content/themes/letoh/assets/js/active072b.js?ver=6.3.5
+10:48:08	Warning: 	File not added due to mirror cancel: https://lemorecp.vercel.app/lemorehotels.com/wp-content/themes/letoh/assets/js/active072b.js?ver=6.3.5
+10:48:08	Error: 	"Forbidden" (403) at link https://lemorecp.vercel.app/lemorehotels.com/wp-content/uploads/2023/07/lemore-favicon-270x270-1.png (from https://lemorecp.vercel.app/lemorehotels.com/index.html)
+10:48:08	Error: 	"Forbidden" (403) at link https://lemorecp.vercel.app/lemorehotels.com/en/index.html (from https://lemorecp.vercel.app/lemorehotels.com/index.html)
+10:48:08	Error: 	"Forbidden" (403) at link https://lemorecp.vercel.app/lemorehotels.com/wp-content/themes/letoh/style072b.css?ver=6.3.5 (from https://lemorecp.vercel.app/lemorehotels.com/index.html)
+10:48:08	Error: 	"Forbidden" (403) at link https://lemorecp.vercel.app/lemorehotels.com/wp-content/themes/letoh/assets/js/jquery.min072b.js?ver=6.3.5 (from https://lemorecp.vercel.app/lemorehotels.com/index.html)
+10:48:08	Error: 	"mirror stopped by user" (-1) at link https://lemorecp.vercel.app/lemorehotels.com/wp-content/themes/letoh/assets/js/active072b.js?ver=6.3.5 (from https://lemorecp.vercel.app/lemorehotels.com/index.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 seconds : 13 links scanned, 7 files written (438613 bytes overall) [249036 bytes received at 49807 bytes/sec], 432466 bytes transferred using HTTP compression in 5 files, ratio 22%
+(6 errors, 4 warnings, 0 messages)

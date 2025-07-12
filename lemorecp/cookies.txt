@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+lemorehotels.com	TRUE	/	FALSE	1999999999	PHPSESSID	9b24072ecd50b5353873b9cecd344761
+lemorehotels.com	TRUE	/	FALSE	1999999999	pll_language	vi
+lemorehotels.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+
